@@ -1,0 +1,18 @@
+{
+  "name": "national-triage-standards",
+  "description": "National Triage Standards website (proof of concept).",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --quiet",
+    "clean": "rm -rf _site"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@x-govuk/nhsuk-eleventy-plugin": "^1.4.3"
+  },
+  "engines": {
+    "node": ">=22.22"
+  }
+}

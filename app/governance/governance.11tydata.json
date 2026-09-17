@@ -1,0 +1,7 @@
+{
+  "layout": "sub-navigation",
+  "sectionKey": "governance",
+  "eleventyNavigation": {
+    "parent": "governance"
+  }
+}

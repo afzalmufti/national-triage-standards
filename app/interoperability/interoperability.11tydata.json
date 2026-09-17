@@ -1,0 +1,7 @@
+{
+  "layout": "sub-navigation",
+  "sectionKey": "interoperability",
+  "eleventyNavigation": {
+    "parent": "interoperability"
+  }
+}

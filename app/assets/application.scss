@@ -1,0 +1,4 @@
+@use "pkg:nhsuk-frontend/dist/nhsuk/core" as *;
+
+// NHS.UK Eleventy plugin styles
+@forward "pkg:@x-govuk/nhsuk-eleventy-plugin";

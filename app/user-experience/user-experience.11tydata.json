@@ -1,0 +1,7 @@
+{
+  "layout": "sub-navigation",
+  "sectionKey": "user-experience",
+  "eleventyNavigation": {
+    "parent": "user-experience"
+  }
+}

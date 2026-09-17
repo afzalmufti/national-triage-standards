@@ -1,0 +1,7 @@
+{
+  "layout": "sub-navigation",
+  "sectionKey": "clinical-safety",
+  "eleventyNavigation": {
+    "parent": "clinical-safety"
+  }
+}
