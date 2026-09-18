@@ -2,3 +2,43 @@
 
 // NHS.UK Eleventy plugin styles
 @forward "pkg:@x-govuk/nhsuk-eleventy-plugin";
+
+.app-demo-banner {
+  padding: nhsuk-spacing(2) nhsuk-spacing(3);
+  background-color: nhsuk-colour("warm-yellow");
+  color: nhsuk-colour("black");
+}
+
+.app-demo-banner__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: nhsuk-spacing(2) nhsuk-spacing(3);
+  align-items: center;
+  justify-content: center;
+}
+
+.app-demo-banner__text {
+  margin: 0;
+}
+
+.app-demo-banner__dismiss {
+  flex-shrink: 0;
+  padding: nhsuk-spacing(1) nhsuk-spacing(2);
+  border: 2px solid nhsuk-colour("black");
+  border-radius: 4px;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.app-demo-banner__dismiss:hover {
+  background-color: nhsuk-colour("black");
+  color: nhsuk-colour("white");
+}
+
+.app-demo-banner__dismiss:focus-visible {
+  outline: 3px solid nhsuk-colour("black");
+  outline-offset: 2px;
+}
