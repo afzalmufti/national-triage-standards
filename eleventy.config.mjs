@@ -2,6 +2,9 @@ import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 
 const serviceName = 'National Triage Standards'
 
+// Root locally; set by CI (e.g. "/national-triage-standards/") for GitHub Pages
+const pathPrefix = process.env.PATH_PREFIX || '/'
+
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
     titleSuffix: serviceName,
@@ -25,6 +28,7 @@ export default function (eleventyConfig) {
   })
 
   return {
+    pathPrefix,
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
