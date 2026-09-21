@@ -21,6 +21,13 @@ and ==highlighted== words, and abbreviations such as FIT are expanded on hover.
 
 This paragraph is styled as a hint, to give quiet supporting guidance. {.nhsuk-hint}
 
+## Images
+
+![Example triage outcome categories: Emergency (immediate 999 response), Urgent (same day), Routine (within 5 working days) and Self-care (no appointment needed).](/assets/images/triage-outcomes.svg)
+
+Example of a locally served image, copied from `app/assets/images` to `/assets/images` at build time. {.nhsuk-hint}
+
+
 ## Tables
 
 Add a table using standard Markdown pipes. It is automatically given NHS.UK table

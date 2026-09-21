@@ -27,6 +27,9 @@ export default function (eleventyConfig) {
     }
   })
 
+  // Serve author-supplied images locally from /assets/images
+  eleventyConfig.addPassthroughCopy({ 'app/assets/images': 'assets/images' })
+
   // Inject a site-wide demo banner at the top of every rendered page
   eleventyConfig.addTransform('demoBanner', function (content) {
     const outputPath = this.page?.outputPath
